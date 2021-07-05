@@ -55,7 +55,7 @@ header {
   grid-area: a;
 }
 
-sidebar {
+.sidebar {
   background-color: #6fff8f;
   grid-area: b;
 }
