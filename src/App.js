@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import addButton from './addButton';
 
 function App() {
   return (
     <div className="App">
-      <header>Hello React!</header>
-      <sidebar>Sidebar</sidebar>
-      <main>lorem ipsum</main>
-      <footer>Made by a highly trained not a monkey</footer>
+      <header>Hello React! {addButton()}</header>
+      <sidebar>Sidebar {addButton()}</sidebar>
+      <main>lorem ipsum {addButton()}</main>
+      <footer>Made by a highly trained not a monkey {addButton()}</footer>
     </div>
   );
 }

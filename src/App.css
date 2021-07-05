@@ -69,3 +69,7 @@ footer {
   background-color: #ffadbe;
   grid-area: d;
 }
+
+button {
+  cursor: pointer;
+}
